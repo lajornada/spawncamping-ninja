@@ -9,7 +9,10 @@ class Moto(Vehiculo):
     pass
 
 
-carro = Vehiculo(2013,"MKU-768")
+class Carro(Vehiculo):
+	"""
+	Implementación de la clase Carro
+	"""
 
 
 class Bus(Vehiculo):
