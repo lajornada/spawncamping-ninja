@@ -1,6 +1,10 @@
 """
 Modulo de utilidades.
 """
+from restricciones import RESTRICCION_BASE
+from restricciones import RESTRICCION_DIAS_MOTOS
+from restricciones import RESTRICCION_EDAD_CARROS
+from restricciones import RESTRICCION_DIAS_CARROS_X_EDAD
 
 
 def verificacion(vehiculo, dia):

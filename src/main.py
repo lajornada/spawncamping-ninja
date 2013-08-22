@@ -9,11 +9,6 @@ from vehiculos import Motocicleta
 from vehiculos import Carro
 from vehiculos import Bus
 
-from restricciones import RESTRICCION_BASE
-from restricciones import RESTRICCION_DIAS_MOTOS
-from restricciones import RESTRICCION_EDAD_CARROS
-from restricciones import RESTRICCION_DIAS_CARROS_X_EDAD
-
 from utils import verificacion
 
 
