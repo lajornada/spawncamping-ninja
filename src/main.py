@@ -9,19 +9,14 @@ from vehiculos import Motocicleta
 from vehiculos import Carro
 from vehiculos import Bus
 
-from restricciones import RESTRICCION_BASE
-from restricciones import RESTRICCION_DIAS_MOTOS
-from restricciones import RESTRICCION_EDAD_CARROS
-from restricciones import RESTRICCION_DIAS_CARROS_X_EDAD
-
 from utils import verificacion
 
 
 def main():
-    cviejo = Carro('001LLL', 1910)
-    cnuevo = Carro('003LLL', 2000)
-    moto = Motocicleta('005LLLLLLLL', 1000)
-    bus = Bus('007', 3000)
+    cviejo = Carro(1910, '001LLL')
+    cnuevo = Carro(2010, '003LLL')
+    moto = Motocicleta(10000, '005LLLLLLLL')
+    bus = Bus(3000, '007')
 
     print "carro viejo"
     for dia in range(7):
