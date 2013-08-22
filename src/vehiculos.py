@@ -1,4 +1,10 @@
-# -*- coding: utf-8 -*-
-from base import Vehiculo
+# -*- coding:utf8 -*-
+import base from Vehiculo
 
-carro = Vehiculo(2013,"MKU-768") 
+class Moto(Vehiculo):
+	"""
+	Clase para vehiculo Moto que hereda de Vehiculo
+	"""
+    pass
+
+carro = Vehiculo(2013,"MKU-768")
