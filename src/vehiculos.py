@@ -1,5 +1,6 @@
 # -*- coding:utf8 -*-
-import base from Vehiculo
+from base import Vehiculo
+
 
 class Moto(Vehiculo):
 	"""
@@ -7,4 +8,13 @@ class Moto(Vehiculo):
 	"""
     pass
 
+
 carro = Vehiculo(2013,"MKU-768")
+
+
+class Bus(Vehiculo):
+    """
+    Implementación de la clase Complejo
+    """
+
+
