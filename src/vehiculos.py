@@ -2,7 +2,7 @@
 from base import Vehiculo
 
 
-class Moto(Vehiculo):
+class Motocicleta(Vehiculo):
 	"""
 	Clase para vehiculo Moto que hereda de Vehiculo
 	"""
